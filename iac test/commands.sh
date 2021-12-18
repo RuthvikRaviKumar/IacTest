@@ -30,7 +30,7 @@ terraform apply tfplan
 # delete the infra
 terraform destroy
 
-# cleanup files
+# cleanup files!
 rm terraform.tfstate
 rm terraform.tfstate.backup
 rm tfplan
