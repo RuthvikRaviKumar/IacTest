@@ -28,4 +28,5 @@ resource "azurerm_kubernetes_cluster" "aks" {
     load_balancer_sku = "Standard"
     network_plugin    = "kubenet" # CNI
   }
+  private_cluster_enabled = true
 }
